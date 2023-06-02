@@ -1,0 +1,45 @@
+{
+  "start": { 
+    "question": "What is your username",
+    "answers": {
+      "": {
+      "text": "(just do enter for now)",
+      "next": "001Q1"
+      }
+    }
+  },
+  
+  "001Q1": {
+    "question": "Do you have autism? (Y or N)",
+    "answers": {
+      "Y": {
+        "text": "Yes",
+        "next": "001Q2"
+      },
+      "N": {
+      "text": "No",
+      "next": "101Q2" 
+      }
+    }
+  },
+
+  "001Q2": {
+    "question": "What is your favourite subject",
+    "answers": {
+      "": {
+        "text": "(just do enter for now)",
+        "next": "end"
+      }
+    }
+  },
+  
+  "101Q2": {
+    "question": "What is your favourite subject",
+    "answers": {
+      "": {
+      "text": "(just do enter for now)",
+      "next": "end"
+      }
+    }
+  }
+}

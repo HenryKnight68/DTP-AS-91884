@@ -1,0 +1,49 @@
+{
+  "start": {
+    "question": "Do you have autism? (Y or N)",
+    "answers": {
+      "Y": {
+        "text": "Yes",
+        "next": "yes_autism"
+      },
+      "N": {
+      "text": "No",
+      "next": "no_autism" 
+      }
+    }
+  },
+
+  "yes_autism": {
+    "question": "Yes Autism",
+    "answers": {
+      "": {
+        "text": "Continue = Enter",
+        "next": "1Q3"
+      }
+    }
+  },
+  
+  "no_autism": {
+    "question": "No Autism",
+    "answers": {
+      "": {
+        "text": "Continue = Enter",
+        "next": "2Q3"
+      }
+    }
+  },
+  
+  "1Q3": {
+    "question": "What is your favourite subject",
+    "answers": {
+      
+    }
+  },
+  
+  "2Q3": {
+    "question": "What is your favourite subject",
+    "answers": {
+      
+    }
+  }
+}
