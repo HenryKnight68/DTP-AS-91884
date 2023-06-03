@@ -1,16 +1,7 @@
 {
-  "start": { 
-    "question": "What is your username",
-    "answers": {
-      "": {
-      "text": "(just do enter for now)",
-      "next": "001Q1"
-      }
-    }
-  },
   
   "001Q1": {
-    "question": "Do you have autism? (Y or N)",
+    "question": "My first question is do you have autism? (Y or N)",
     "answers": {
       "Y": {
         "text": "Yes",
@@ -24,7 +15,7 @@
   },
 
   "001Q2": {
-    "question": "What is your favourite subject",
+    "question": "Now then What is your favourite subject?",
     "answers": {
       "": {
         "text": "(just do enter for now)",
@@ -34,7 +25,7 @@
   },
   
   "101Q2": {
-    "question": "What is your favourite subject",
+    "question": "Now then What is your favourite subject?",
     "answers": {
       "": {
       "text": "(just do enter for now)",

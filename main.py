@@ -1,5 +1,12 @@
 import os
+import re
 import json
+
+#################################################
+###                                           ###
+###  Functions                                ###
+###                                           ###
+#################################################
 
 
 def readJson():
@@ -11,8 +18,53 @@ def readJson():
   return story
 
 
-state = "start"
+#################################################
+###                                           ###
+###  Game Initialization                      ###
+###                                           ###
+#################################################
+
+state = "001Q1"
 story = readJson()
+
+username = None
+while username == None:
+  tmp = input("what is your username?"
+              "\n"
+              "").strip()
+  regexp = re.compile(".*[\.\$#].*")
+  if regexp.match(tmp) or tmp == "":
+    print("ERROR contains undetectable symbols (.*[\.\$#].*) ")
+    continue
+  uncheck = input("Do you want your username to be " + tmp + "? "
+  "\n"
+  "Y)Yes"
+  "\n"
+  "N)No"
+  "\n").upper()
+  
+  if uncheck == "N" or uncheck == "NO":
+    continue
+  elif uncheck == "Y" or uncheck == "YES":
+    username = tmp
+  else:
+    print("Sorry thats not a vaild anwser so we will asume you typed N")
+    continue
+
+
+
+
+# Username()
+
+  
+print("Hi " + username + " I hope your doing great today,"
+      "\n"
+"lets get to asking you a few questions shall we.")
+#################################################
+###                                           ###
+###  Game Loop Below This                     ###
+###                                           ###
+#################################################
 
 while state != "end":
   # print(story[state])
