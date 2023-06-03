@@ -15,7 +15,7 @@ state = "start"
 story = readJson()
 
 while state != "end":
-  # print(story[state])
+  print(story[state])
   currentState = story[state]
 
   print()
