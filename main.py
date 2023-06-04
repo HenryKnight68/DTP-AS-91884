@@ -35,7 +35,11 @@ while username == None:
   regexp = re.compile(".*[\.\$#].*")
   if regexp.match(tmp) or tmp == "":
     print("ERROR contains undetectable symbols (.*[\.\$#].*) ")
+  if len(tmp) >16 or len(tmp) <3:
+    print("incorect character amount 3 to 16 characters only")
     continue
+  
+    
   uncheck = input("Do you want your username to be " + tmp + "? "
   "\n"
   "Y)Yes"
