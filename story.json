@@ -1,31 +1,101 @@
 {
   
   "001Q1": {
-    "question": "My first question is do you have autism? (Y or N)",
+    "question": "The first question I feal like I should ask for the sake of this text adventure is do you have autism? (Y or N)",
     "answers": {
-      "Y": {
-        "text": "Yes",
+      "N": {
+        "text": "No",
         "next": "001Q2"
       },
-      "N": {
-      "text": "No",
-      "next": "101Q2" 
+      "Y": {
+        "text": "Yes",
+        "next": "101Q2" 
       }
     }
   },
 
   "001Q2": {
-    "question": "Now then What is your favourite subject?",
+    "question": "Now that we have gotten to know you a bit more lets get to makeing a friend shal we. You are in class alone you look over to see a some what cool looking dude named jack what do you do?",
     "answers": {
-      "": {
-        "text": "(just do enter for now)",
-        "next": "end"
+      "A": {
+        "text": "Say hi",
+        "next": "001Q3"
+      },
+      "B": {
+        "text": "Say hello",
+        "next": "001Q3"
+              },
+      "C": {
+        "text": "Do nothing",
+        "next": "002Q2"
+      }
+    }
+  },
+  
+  "002Q2": {
+    "question": "You should proberbly go talk to him",
+    "answers": {
+      "A": {
+        "text": "Say hi",
+        "next": "001Q3"
+      },
+      "B": {
+        "text": "Say hello",
+        "next": "001Q3"
+              },
+      "C": {
+        "text": "Do nothing",
+        "next": "002Q2"
+      }
+    }
+  },
+
+  "001Q3": {
+    "question": "(tip you should as jack his intrests) what do you do?",
+    "answers": {
+      "A": {
+        "text": "Tell him your intrests",
+        "next": "003Q4"
+              },
+      "B": {
+        "text": "Ask him his intrests",
+        "next": "001Q4"
+      }
+    } 
+  },
+
+  "003Q4": {
+    "question": "You tell jack your intrested in pokemon so you to decide to do a pokemon battle your level 5 rowlet against his level 5 eevee what do you do",
+    "answers": {
+      "TACKLE": {
+         "text": "40 Base power 95 Percent acuracy",
+         "next": "003Q5"
+       }
+     } 
+   },
+
+  "003Q5": {
+    "question": "Its a critical hit ending the battle. Jack thinks the battle was fun and is now ready to be friended what do you do?",
+    "answers": {
+      "A": {
+        "text": "Befriend jack",
+        "next": "001QEnd"
+      }
+    }
+  },
+
+  "001QEnd": {
+    "question": "Good Job you have made friends with jack (press enter to restart)",
+    "answers": {
+    "": {
+      "text": "restart",
+      "next": "end"
       }
     }
   },
   
   "101Q2": {
-    "question": "Now then What is your favourite subject?",
+    "question": "Now that we have gotten to know you a bit more lets get to makeing a friend shal we.",
     "answers": {
       "": {
       "text": "(just do enter for now)",
