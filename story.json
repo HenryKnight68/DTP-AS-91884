@@ -51,7 +51,7 @@
   },
 
   "001Q3": {
-    "question": "(tip you should as jack his intrests) what do you do?",
+    "question": "(tip you should as Jack his intrests) what do you do?",
     "answers": {
       "A": {
         "text": "Tell him your intrests",
@@ -64,6 +64,164 @@
     } 
   },
 
+  "001Q4": {
+    "question": "Jack tells you about his love for Ori the owl house and heluva boss what do you do?",
+    "answers": {
+      "A": {
+        "text": "I like Ori",
+        "next": "001Q5"
+              },
+      "B": {
+        "text": "I like The Owl House",
+        "next": "004Q5"
+              },
+      "C": {
+        "text": "I like heluva boss",
+        "next": "005Q5"
+      }
+    } 
+  },
+
+  "001Q5": {
+    "question": "Jack would like to test you on ori to see if your a true fan your first question is who is the villan of ori and the will of the wisps (note if you get any qustion wrong you will be sent back to the question that you got wrong)",
+    "answers": {
+      "A": {
+        "text": "Shriek",
+        "next": "001Q6"
+              },
+      "B": {
+        "text": "Mora",
+        "next": "001Q5"
+              },
+      "C": {
+        "text": "Baur",
+        "next": "001Q5"
+      
+      }
+    } 
+  },
+
+  "001Q6": {
+    "question": "In ori and the will of wisps the abilty that alows you to reach serius hight by launching of enemys is?",
+    "answers": {
+      "A": {
+        "text": "Grapple",
+        "next": "001Q6"
+              },
+      "B": {
+        "text": "Fling",
+        "next": "001Q6"
+              },
+      "C": {
+        "text": "Bash",
+        "next": "001Q7"
+      }
+    }
+  },
+
+  "001Q7": {
+    "question": "In ori and the will of the wisps which character causes ori to find the wisps",
+    "answers": {
+      "A": {
+        "text": "Kwolok",
+        "next": "001Q7"
+              },
+      "B": {
+        "text": "Ku",
+        "next": "001Q8"
+              },
+      "C": {
+        "text": "Naru",
+        "next": "001Q7"
+      }
+    }
+  },
+  
+  "001Q8": {
+    "question": "jack is happy your a fellow Ori fan",
+    "answers": {
+      "A": {
+        "text": "Befriend jack",
+        "next": "001QEnd"
+      }
+    }
+  },
+
+  "004Q5": {
+    "question": "Jack would like to test you on your the owl house knowlage to see if your a real fan Your first question is Which of the following is a god? (note if you get any qustion wrong you will be sent back to the question that you got wrong)",
+    "answers": {
+      "A": {
+        "text": "King",
+        "next": "004Q6"
+              },
+      "B": {
+        "text": "Emperor Belos",
+        "next": "004Q5"
+              },
+      "C": {
+        "text": "Hooty",
+        "next": "004Q5"
+      
+      }
+    } 
+  },
+        "004Q6": {
+    "question": "In The Owl House which Villan is redeemed in the end of The Owl House ?",
+    "answers": {
+      "A": {
+        "text": "Lilith",
+        "next": "004Q6"
+              },
+      "B": {
+        "text": "Philip",
+        "next": "004Q6"
+              },
+      "C": {
+        "text": "The collector",
+        "next": "004Q7"
+      }
+    }
+  },
+  "004Q7": {
+    "question": "In The Owl House What form did the villin take in the final fight?",
+    "answers": {
+      "A": {
+        "text": "The Boiling isles",
+        "next": "001Q8"
+              },
+      "B": {
+        "text": "Kings dad",
+        "next": "001Q8"
+              },
+      "C": {
+        "text": "A dragon",
+        "next": "001Q8"
+      }
+    }
+  },
+        
+  "004Q8": {
+    "question": "jack is happy your a fellow The owl house fan",
+    "answers": {
+      "A": {
+        "text": "Befriend jack",
+        "next": "001QEnd"
+      }
+    }
+  },
+
+  
+  "005Q8": {
+    "question": "Jack is Happy your a fellow The Owl House lover a wants to be friend you",
+    "answers": {
+      "A": {
+        "text": "Befriend jack",
+        "next": "001QEnd"
+      }
+    }
+  },
+  
+  
   "003Q4": {
     "question": "You tell jack your intrested in pokemon so you to decide to do a pokemon battle your level 5 rowlet against his level 5 eevee what do you do",
     "answers": {
@@ -83,7 +241,7 @@
       }
     }
   },
-
+  
   "001QEnd": {
     "question": "Good Job you have made friends with jack (press enter to restart)",
     "answers": {
