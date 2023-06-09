@@ -15,7 +15,7 @@
   },
 
   "001Q2": {
-    "question": "Now that we have gotten to know you a bit more lets get to makeing a friend shal we. You are in class alone you look over to see a some what cool looking dude named jack what do you do?",
+    "question": "Now that we have gotten to know you a bit more lets get to makeing a friend shal we. You are in class alone you look over to see a some what cool looking dude named Jack what do you do?",
     "answers": {
       "A": {
         "text": "Say hi",
@@ -83,7 +83,7 @@
   },
 
   "001Q5": {
-    "question": "Jack would like to test you on ori to see if your a true fan your first question is who is the villan of ori and the will of the wisps (note if you get any qustion wrong you will be sent back to the question that you got wrong)",
+    "question": "Jack would like to test you on ori to see if your a true fan. Your first question is who is the villan of ori and the will of the wisps? (note if you get any qustion wrong you will be sent back to the question that you got wrong)",
     "answers": {
       "A": {
         "text": "Shriek",
@@ -102,7 +102,7 @@
   },
 
   "001Q6": {
-    "question": "In ori and the will of wisps the abilty that alows you to reach serius hight by launching of enemys is?",
+    "question": "In ori and the will of wisps the abilty that alows you to reach serius height by launching off enemys is?",
     "answers": {
       "A": {
         "text": "Grapple",
@@ -187,15 +187,15 @@
     "answers": {
       "A": {
         "text": "The Boiling isles",
-        "next": "001Q8"
+        "next": "004Q8"
               },
       "B": {
         "text": "Kings dad",
-        "next": "001Q8"
+        "next": "004Q8"
               },
       "C": {
         "text": "A dragon",
-        "next": "001Q8"
+        "next": "004Q8"
       }
     }
   },
@@ -209,10 +209,61 @@
       }
     }
   },
-
-  
+  "005Q5": {
+    "question": "Jack would like to test you on your Helluva boss knowlage to see if your a real fan. Your first question is Who is so far the main villian (of seson 2 episode 4) (note if you get any qustion wrong you will be sent back to the question that you got wrong)",
+    "answers": {
+      "A": {
+        "text": "Stella",
+        "next": "005Q6"
+              },
+      "B": {
+        "text": "Fizzarolli",
+        "next": "005Q5"
+              },
+      "C": {
+        "text": "Striker",
+        "next": "005Q6"
+      
+      }
+    } 
+  },
+        "005Q6": {
+    "question": "In heluva boss Witch character has the highest shown kill count?",
+    "answers": {
+      "A": {
+        "text": "Blitzo",
+        "next": "004Q6"
+              },
+      "B": {
+        "text": "Millie",
+        "next": "005Q7"
+              },
+      "C": {
+        "text": "Moxxie",
+        "next": "005Q6"
+      }
+    }
+  },
+  "005Q7": {
+    "question": "Which ring of hell dose helluva boss mainly take place in?",
+    "answers": {
+      "A": {
+        "text": "Wrath",
+        "next": "005Q7"
+              },
+      "B": {
+        "text": "Greed",
+        "next": "005Q7"
+              },
+      "C": {
+        "text": "Pride",
+        "next": "005Q8"
+      }
+    }
+  },
+        
   "005Q8": {
-    "question": "Jack is Happy your a fellow The Owl House lover a wants to be friend you",
+    "question": "jack is happy your a fellow Helluva boos fan",
     "answers": {
       "A": {
         "text": "Befriend jack",
@@ -220,7 +271,6 @@
       }
     }
   },
-  
   
   "003Q4": {
     "question": "You tell jack your intrested in pokemon so you to decide to do a pokemon battle your level 5 rowlet against his level 5 eevee what do you do",
