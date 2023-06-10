@@ -1,7 +1,8 @@
+
 {
   
   "001Q1": {
-    "question": "The first question I feal like I should ask for the sake of this text adventure is do you have autism? (Y or N)",
+    "question": "The first question I feel like I should ask for the sake of this text adventure is do you have autism? (Y or N)",
     "answers": {
       "N": {
         "text": "No",
@@ -15,7 +16,7 @@
   },
 
   "001Q2": {
-    "question": "Now that we have gotten to know you a bit more lets get to makeing a friend shal we. You are in class alone you look over to see a some what cool looking dude named Jack what do you do?",
+    "question": "Now that we have gotten to know you a bit more let's get to making a friend shall we. You are in class alone, you look over to see a somewhat cool looking dude named Jack, what do you do?",
     "answers": {
       "A": {
         "text": "Say hi",
@@ -33,7 +34,7 @@
   },
   
   "002Q2": {
-    "question": "You should proberbly go talk to him",
+    "question": "You should probably go talk to him",
     "answers": {
       "A": {
         "text": "Say hi",
@@ -51,14 +52,14 @@
   },
 
   "001Q3": {
-    "question": "(tip you should as Jack his intrests) what do you do?",
+    "question": "(tip you should ask Jack his interests) what do you do?",
     "answers": {
       "A": {
-        "text": "Tell him your intrests",
+        "text": "Tell him your interests",
         "next": "003Q4"
               },
       "B": {
-        "text": "Ask him his intrests",
+        "text": "Ask him his interests",
         "next": "001Q4"
       }
     } 
@@ -80,14 +81,14 @@
         "next": "005Q5"
               },
       "D": {
-        "text": "I am not intrested in any of these",
+        "text": "I am not interested in any of these",
         "next": "003Q4"
       }
     } 
   },
 
   "001Q5": {
-    "question": "Jack would like to test you on ori to see if your a true fan. Your first question is who is the villan of ori and the will of the wisps? (note if you get any qustion wrong you will be sent back to the question that you got wrong)",
+    "question": "Jack would like to test you on ori to see if you're a true fan. Your first question is who is the villain of Ori and the will of the wisps? (note if you get any question wrong you will be sent back to the question that you got wrong)",
     "answers": {
       "A": {
         "text": "Shriek",
@@ -106,7 +107,7 @@
   },
 
   "001Q6": {
-    "question": "In ori and the will of wisps the abilty that alows you to reach serius height by launching off enemys is?",
+    "question": "In ori and the will of wisps the ability that allows you to reach some serious height by launching off enemies is?",
     "answers": {
       "A": {
         "text": "Grapple",
@@ -142,17 +143,17 @@
   },
   
   "001Q8": {
-    "question": "jack is happy your a fellow Ori fan",
+    "question": "Jack is happy your a fellow Ori fan",
     "answers": {
       "A": {
-        "text": "Befriend jack",
+        "text": "Befriend Jack",
         "next": "001QEnd"
       }
     }
   },
 
   "004Q5": {
-    "question": "Jack would like to test you on your the owl house knowlage to see if your a real fan Your first question is Which of the following is a god? (note if you get any qustion wrong you will be sent back to the question that you got wrong)",
+    "question": "Jack would like to test you on your The Owl House knowledge to see if you're a real fan Your first question is Which of the following is a god? (note if you get any question wrong you will be sent back to the question that you got wrong)",
     "answers": {
       "A": {
         "text": "King",
@@ -170,7 +171,7 @@
     } 
   },
         "004Q6": {
-    "question": "In The Owl House which Villan is redeemed in the end of The Owl House ?",
+    "question": "In The Owl House which Villain is redeemed in the end of The Owl House ?",
     "answers": {
       "A": {
         "text": "Lilith",
@@ -187,7 +188,7 @@
     }
   },
   "004Q7": {
-    "question": "In The Owl House What form did the villin take in the final fight?",
+    "question": "In The Owl House What form did the villain take in the final fight?",
     "answers": {
       "A": {
         "text": "The Boiling isles",
@@ -205,16 +206,16 @@
   },
         
   "004Q8": {
-    "question": "jack is happy your a fellow The owl house fan",
+    "question": "Jack is happy your a fellow The owl house fan",
     "answers": {
       "A": {
-        "text": "Befriend jack",
+        "text": "Befriend Jack",
         "next": "001QEnd"
       }
     }
   },
   "005Q5": {
-    "question": "Jack would like to test you on your Helluva boss knowlage to see if your a real fan. Your first question is Who is so far the main villian (of seson 2 episode 4) (note if you get any qustion wrong you will be sent back to the question that you got wrong)",
+    "question": "Jack would like to test you on your Helluva boss knowledge to see if your a real fan. Your first question is Who is so far the main villain (of season 2 episode 4) (note if you get any question wrong you will be sent back to the question that you got wrong)",
     "answers": {
       "A": {
         "text": "Stella",
@@ -232,7 +233,7 @@
     } 
   },
         "005Q6": {
-    "question": "In heluva boss Witch character has the highest shown kill count?",
+    "question": "In heluva boss Which character has the highest shown kill count?",
     "answers": {
       "A": {
         "text": "Blitzo",
@@ -267,37 +268,37 @@
   },
         
   "005Q8": {
-    "question": "jack is happy your a fellow Helluva boos fan",
+    "question": "Jack is happy your a fellow Helluva boos fan",
     "answers": {
       "A": {
-        "text": "Befriend jack",
+        "text": "Befriend Jack",
         "next": "001QEnd"
       }
     }
   },
   
   "003Q4": {
-    "question": "You tell jack your intrested in pokemon so you to decide to do a pokemon battle your level 5 rowlet against his level 5 eevee what do you do",
+    "question": "You tell Jack your interested in pokemon so you to decide to do a pokemon battle your level 5 rowlet against his level 5 eevee what do you do",
     "answers": {
       "TACKLE": {
-         "text": "40 Base power 95 Percent acuracy",
+         "text": "40 Base power 95 Percent accuracy",
          "next": "003Q5"
        }
      } 
    },
 
   "003Q5": {
-    "question": "Its a critical hit ending the battle. Jack thinks the battle was fun and is now ready to be friended what do you do?",
+    "question": "It's a critical hit ending the battle. Jack thinks the battle was fun and is now ready to be friended what do you do?",
     "answers": {
       "A": {
-        "text": "Befriend jack",
+        "text": "Befriend Jack",
         "next": "001QEnd"
       }
     }
   },
   
   "001QEnd": {
-    "question": "Good Job you have made friends with jack (press enter to restart)",
+    "question": "Good Job you have made friends with Jack (press enter to restart)",
     "answers": {
     "": {
       "text": "restart",
@@ -316,3 +317,4 @@
     }
   }
 }
+

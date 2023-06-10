@@ -1,6 +1,8 @@
 import os
 import re
 import json
+import textwrap
+
 # Coment update 5 with the feed back update
 #################################################
 ###                                           ###
@@ -18,12 +20,19 @@ def readJson():
   return story
 
 
+def printWrappedText(text):
+  size = os.get_terminal_size()
+  #print(size.columns)
+  wrapped = textwrap.wrap(text,width=size.columns)
+  for line in wrapped:
+    print(line)
+  
+
 #################################################
 ###                                           ###
 ###  Game Initialization                      ###
 ###                                           ###
 #################################################
-
 state = "001Q1"
 story = readJson()
 
@@ -35,18 +44,18 @@ while username == None:
   regexp = re.compile(".*[\.\$#].*")
   if regexp.match(tmp) or tmp == "":
     print("ERROR contains undetectable symbols (.*[\.\$#].*) ")
-  if len(tmp) >16 or len(tmp) <3:
-    print("incorect character amount 3 to 16 characters only")
     continue
-  
-    
+  if len(tmp) > 16 or len(tmp) < 3:
+    print("incorrect character amount 3 to 16 characters only")
+    continue
+
   uncheck = input("Do you want your username to be " + tmp + "? "
-  "\n"
-  "Y)Yes"
-  "\n"
-  "N)No"
-  "\n").upper()
-  
+                  "\n"
+                  "Y)Yes"
+                  "\n"
+                  "N)No"
+                  "\n").upper()
+
   if uncheck == "N" or uncheck == "NO":
     continue
   elif uncheck == "Y" or uncheck == "YES":
@@ -55,15 +64,11 @@ while username == None:
     print("Sorry thats not a vaild anwser so we will asume you typed N")
     continue
 
-
-
-
 # Username()
 
-  
-print("Hi " + username + " I hope your doing great today,"
+printWrappedText("Hi " + username + " I hope your doing great today,"
       "\n"
-"lets get to asking you a few questions shall we.")
+      "lets get to asking you a few questions shall we.")
 #################################################
 ###                                           ###
 ###  Game Loop Below This                     ###
@@ -75,7 +80,7 @@ while state != "end":
   currentState = story[state]
 
   print()
-  print(currentState["question"])
+  printWrappedText(currentState["question"])
   answers = currentState["answers"]
   for key in answers.keys():
     print(" " + key + ") " + answers[key]["text"])
