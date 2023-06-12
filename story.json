@@ -52,7 +52,7 @@
   },
 
   "001Q3": {
-    "question": "(tip you should ask Jack his interests) what do you do?",
+    "question": "Jack responds with a friendly hello (tip you should ask Jack his interests) what do you do?",
     "answers": {
       "A": {
         "text": "Tell him your interests",
@@ -278,7 +278,7 @@
   },
   
   "003Q4": {
-    "question": "You tell Jack your interested in pokemon so you to decide to do a pokemon battle your level 5 rowlet against his level 5 eevee what do you do",
+    "question": "You tell Jack your interested in pokemon so you to decide to do a pokemon battle your level 5 Rowlet against his level 5 eevee what do you do",
     "answers": {
       "TACKLE": {
          "text": "40 Base power 95 Percent accuracy",
@@ -308,13 +308,195 @@
   },
   
   "101Q2": {
-    "question": "Now that we have gotten to know you a bit more lets get to makeing a friend shal we.",
+    "question": "Now that we have gotten to know you a bit more let's get to making a friend shall we. your in class alone when you spot a cool but socially awkward dude named liam what do you do?",
     "answers": {
-      "": {
-      "text": "(just do enter for now)",
+      "A": {
+        "text": "Say hi",
+        "next": "101Q3"
+      },
+      "B": {
+        "text": "Say hello",
+        "next": "101Q3"
+              },
+      "C": {
+        "text": "Do nothing",
+        "next": "102Q2"
+      }
+    }
+  },
+      "102Q2": {
+    "question": "You should probably go talk to him",
+    "answers": {
+      "A": {
+        "text": "Say hi",
+        "next": "101Q3"
+      },
+      "B": {
+        "text": "Say hello",
+        "next": "101Q3"
+              },
+      "C": {
+        "text": "Do nothing",
+        "next": "102Q2"
+      }
+    }
+  },
+      "101Q3": {
+    "question": "Liam doesn't respond but from a further glimpse of him you can see he has a dnd book and a lego star wars keychain attached to his bag what do you do?",
+    "answers": {
+      "A": {
+        "text": "Ask him if he wants to play dnd later",
+        "next": "103Q4"
+              },
+      "B": {
+        "text": "Tell him you like star wars",
+        "next": "101Q4"
+      }
+    } 
+  },
+        "101Q4": {
+    "question": "To test if your a true star wars fan liam wishes to test you on starwars (tip if you get an answer wrong you will end up immediately back at the question you got wrong) your fist question is What is darth vader's real name",
+    "answers": {
+      "A": {
+        "text": "Anakin_Skywalker",
+        "next": "101Q5"
+              },
+      "B": {
+        "text": "Obi_One_Konobi",
+        "next": "101Q4"
+              },
+      "C": {
+        "text": "Palpatine",
+        "next": "101Q4"
+      
+      }
+    } 
+  },
+
+  "101Q5": {
+    "question": "Your second question is who is the leader of the reabel aliance?",
+    "answers": {
+      "A": {
+        "text": "Princess_Leia",
+        "next": "001Q5"
+              },
+      "B": {
+        "text": "Yoda",
+        "next": "001Q5"
+              },
+      "C": {
+        "text": "Mon_Mothma",
+        "next": "101Q6"
+      }
+    }
+  },
+
+  "101Q6": {
+    "question": "your third question is The dark side of the force is a pathway to abilities many consider to be...",
+    "answers": {
+      "A": {
+        "text": "Sith",
+        "next": "1016"
+              },
+      "B": {
+        "text": "The tragedy of Darth Plagueis the Wise",
+        "next": "101Q6"
+              },
+      "C": {
+        "text": "Unnatural",
+        "next": "101Q7"
+      }
+    }
+  },
+      "101Q7": {
+    "question": "your Fourth question is Darth ",
+    "answers": {
+      "A": {
+        "text": "Double-Bladed Lightsaber",
+        "next": "101Q8"
+              },
+      "B": {
+        "text": "Lightsaber Pike",
+        "next": "101Q7"
+              },
+      "C": {
+        "text": "Dual Phase Lightsaber",
+        "next": "101Q7"
+      }
+    }
+  },
+  
+      "101Q8": {
+    "question": "Your final question is what is order 66",
+    "answers": {
+      "A": {
+        "text": "It turned all of the clones into Storm_Troopers",
+        "next": "101Q8"
+              },
+      "B": {
+        "text": "Makes the clones kill their jedi generals",
+        "next": "101Q9"
+              },
+      "C": {
+        "text": "Makes them dance",
+        "next": "001Q8"
+      }
+    }
+  },
+      "101Q9": {
+        "question": "Liam respects your impressive knowledge of star wars and wishes for you to be his friend",
+        "answers": {
+          "A": {
+            "text": "Befriend",
+            "next": "101QEnd"
+          }
+        }
+      },
+      "101QEnd": {
+    "question": "Good Job you have made friends with Liam (press enter to restart)",
+    "answers": {
+    "": {
+      "text": "restart",
       "next": "end"
+    }
+  }
+},
+   "103Q4": {
+    "question": "later you are playing dnd with liam as he says (you come across the beholder what do you do?)",
+    "answers": {
+      "A": {
+         "text": "(level 9) FireBall",
+         "next": "103Q5"
+               },
+      "B": {
+        "text": "(Level 9) Lightning_Bolt",
+        "next": "103Q5"
+               },
+      "C": {
+        "text": "(Level 9) Ray_Of_Frost",
+        "next": "103Q5"
+        }
+     } 
+   },
+
+  "103Q5": {
+    "question": "You roll a net 20 and slay the beholder liam thinks that was fun and wishes to be your friend what do you do?",
+    "answers": {
+      "A": {
+        "text": "Befriend Liam",
+        "next": "101QEnd"
       }
     }
   }
 }
+
+
+
+
+
+
+
+
+  
+
 
